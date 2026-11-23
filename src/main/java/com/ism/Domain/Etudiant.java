@@ -14,5 +14,5 @@ public class Etudiant {
     private String matricule;
     private String nomComplet;
     private LocalDate dateNaissance;
-    private ArrayList<Note> notes;
+    private ArrayList<Note> notes = new ArrayList<>();
 }
